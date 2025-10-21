@@ -25,9 +25,7 @@ jobs:
           docker build -t docker.io/morvic/dev_secofftraing_gabby:mario-game-${{ env.VERSION }} .
           docker push docker.io/morvic/dev_secofftraing_gabby:mario-game-${{ env.VERSION }}
 
-
-  
-run_container_image_scan_on_supermario_docker_image:
+  run_container_image_scan_on_supermario_docker_image:
     runs-on: ubuntu-latest	
  
     steps:
